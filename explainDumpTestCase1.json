@@ -1,0 +1,592 @@
+{
+  "match":true,
+  "value":2.14938752E8,
+  "description":"ranking, sum of:",
+  "details":[{
+      "match":true,
+      "value":2.09695872E8,
+      "description":"weightedPreRanking, floor of:",
+      "details":[{
+          "match":true,
+          "value":2.09695872E8,
+          "description":"weightedFloatPreRanking, product of:",
+          "details":[{
+              "match":true,
+              "value":128.0,
+              "description":"preRankingWeight"},
+            {
+              "match":true,
+              "value":1638249.0,
+              "description":"preRanking, floor of:",
+              "details":[{
+                  "match":true,
+                  "value":1638249.9945297241,
+                  "description":"floatPreRanking, sum of:",
+                  "details":[{
+                      "match":true,
+                      "value":1638285.9945297241,
+                      "description":"solrComponentOfPreRanking, product of:",
+                      "details":[{
+                          "match":true,
+                          "value":1000000.0,
+                          "description":"solrToRwiScale"},
+                        {
+                          "match":true,
+                          "value":1.638286,
+                          "description":"sum of:",
+                          "details":[{
+                              "match":true,
+                              "value":1.5737095,
+                              "description":"max of:",
+                              "details":[{
+                                  "match":true,
+                                  "value":0.075243875,
+                                  "description":"weight(description_txt:clinton in 216) [ClassicSimilarity], result of:",
+                                  "details":[{
+                                      "match":true,
+                                      "value":0.075243875,
+                                      "description":"score(doc=216,freq=1.0), product of:",
+                                      "details":[{
+                                          "match":true,
+                                          "value":0.08867762,
+                                          "description":"queryWeight, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":1.5,
+                                              "description":"boost"},
+                                            {
+                                              "match":true,
+                                              "value":2.715233,
+                                              "description":"idf(docFreq=137, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.021772869,
+                                              "description":"queryNorm"}]},
+                                        {
+                                          "match":true,
+                                          "value":0.8485103,
+                                          "description":"fieldWeight in 216, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":1.0,
+                                              "description":"tf(freq=1.0), with freq of:",
+                                              "details":[{
+                                                  "match":true,
+                                                  "value":1.0,
+                                                  "description":"termFreq=1.0"}]},
+                                            {
+                                              "match":true,
+                                              "value":2.715233,
+                                              "description":"idf(docFreq=137, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.3125,
+                                              "description":"fieldNorm(doc=216)"}]}]}]},
+                                {
+                                  "match":true,
+                                  "value":0.65717757,
+                                  "description":"weight(author:clinton in 216) [ClassicSimilarity], result of:",
+                                  "details":[{
+                                      "match":true,
+                                      "value":0.65717757,
+                                      "description":"score(doc=216,freq=1.0), product of:",
+                                      "details":[{
+                                          "match":true,
+                                          "value":0.15130706,
+                                          "description":"queryWeight, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":6.9493394,
+                                              "description":"idf(docFreq=1, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.021772869,
+                                              "description":"queryNorm"}]},
+                                        {
+                                          "match":true,
+                                          "value":4.343337,
+                                          "description":"fieldWeight in 216, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":1.0,
+                                              "description":"tf(freq=1.0), with freq of:",
+                                              "details":[{
+                                                  "match":true,
+                                                  "value":1.0,
+                                                  "description":"termFreq=1.0"}]},
+                                            {
+                                              "match":true,
+                                              "value":6.9493394,
+                                              "description":"idf(docFreq=1, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.625,
+                                              "description":"fieldNorm(doc=216)"}]}]}]},
+                                {
+                                  "match":true,
+                                  "value":0.015725385,
+                                  "description":"weight(text_t:clinton in 216) [ClassicSimilarity], result of:",
+                                  "details":[{
+                                      "match":true,
+                                      "value":0.015725385,
+                                      "description":"score(doc=216,freq=19.0), product of:",
+                                      "details":[{
+                                          "match":true,
+                                          "value":0.05789145,
+                                          "description":"queryWeight, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":2.6588802,
+                                              "description":"idf(docFreq=145, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.021772869,
+                                              "description":"queryNorm"}]},
+                                        {
+                                          "match":true,
+                                          "value":0.2716357,
+                                          "description":"fieldWeight in 216, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":4.358899,
+                                              "description":"tf(freq=19.0), with freq of:",
+                                              "details":[{
+                                                  "match":true,
+                                                  "value":19.0,
+                                                  "description":"termFreq=19.0"}]},
+                                            {
+                                              "match":true,
+                                              "value":2.6588802,
+                                              "description":"idf(docFreq=145, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.0234375,
+                                              "description":"fieldNorm(doc=216)"}]}]}]},
+                                {
+                                  "match":true,
+                                  "value":0.3042898,
+                                  "description":"weight(title:clinton in 216) [ClassicSimilarity], result of:",
+                                  "details":[{
+                                      "match":true,
+                                      "value":0.3042898,
+                                      "description":"score(doc=216,freq=1.0), product of:",
+                                      "details":[{
+                                          "match":true,
+                                          "value":0.25739583,
+                                          "description":"queryWeight, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":5.0,
+                                              "description":"boost"},
+                                            {
+                                              "match":true,
+                                              "value":2.3643723,
+                                              "description":"idf(docFreq=195, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.021772869,
+                                              "description":"queryNorm"}]},
+                                        {
+                                          "match":true,
+                                          "value":1.1821861,
+                                          "description":"fieldWeight in 216, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":1.0,
+                                              "description":"tf(freq=1.0), with freq of:",
+                                              "details":[{
+                                                  "match":true,
+                                                  "value":1.0,
+                                                  "description":"termFreq=1.0"}]},
+                                            {
+                                              "match":true,
+                                              "value":2.3643723,
+                                              "description":"idf(docFreq=195, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.5,
+                                              "description":"fieldNorm(doc=216)"}]}]}]},
+                                {
+                                  "match":true,
+                                  "value":1.5737095,
+                                  "description":"weight(h1_txt:clinton in 216) [ClassicSimilarity], result of:",
+                                  "details":[{
+                                      "match":true,
+                                      "value":1.5737095,
+                                      "description":"score(doc=216,freq=1.0), product of:",
+                                      "details":[{
+                                          "match":true,
+                                          "value":0.5235584,
+                                          "description":"queryWeight, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":5.0,
+                                              "description":"boost"},
+                                            {
+                                              "match":true,
+                                              "value":4.8092732,
+                                              "description":"idf(docFreq=16, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.021772869,
+                                              "description":"queryNorm"}]},
+                                        {
+                                          "match":true,
+                                          "value":3.0057957,
+                                          "description":"fieldWeight in 216, product of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":1.0,
+                                              "description":"tf(freq=1.0), with freq of:",
+                                              "details":[{
+                                                  "match":true,
+                                                  "value":1.0,
+                                                  "description":"termFreq=1.0"}]},
+                                            {
+                                              "match":true,
+                                              "value":4.8092732,
+                                              "description":"idf(docFreq=16, maxDocs=767)"},
+                                            {
+                                              "match":true,
+                                              "value":0.625,
+                                              "description":"fieldNorm(doc=216)"}]}]}]}]},
+                            {
+                              "match":true,
+                              "value":0.06457647,
+                              "description":"weight(crawldepth_i:`\b\u0000\u0000\u0000\u0000 in 216) [ClassicSimilarity], result of:",
+                              "details":[{
+                                  "match":true,
+                                  "value":0.06457647,
+                                  "description":"score(doc=216,freq=1.0), product of:",
+                                  "details":[{
+                                      "match":true,
+                                      "value":0.03353822,
+                                      "description":"queryWeight, product of:",
+                                      "details":[{
+                                          "match":true,
+                                          "value":0.8,
+                                          "description":"boost"},
+                                        {
+                                          "match":true,
+                                          "value":1.9254591,
+                                          "description":"idf(docFreq=303, maxDocs=767)"},
+                                        {
+                                          "match":true,
+                                          "value":0.021772869,
+                                          "description":"queryNorm"}]},
+                                    {
+                                      "match":true,
+                                      "value":1.9254591,
+                                      "description":"fieldWeight in 216, product of:",
+                                      "details":[{
+                                          "match":true,
+                                          "value":1.0,
+                                          "description":"tf(freq=1.0), with freq of:",
+                                          "details":[{
+                                              "match":true,
+                                              "value":1.0,
+                                              "description":"termFreq=1.0"}]},
+                                        {
+                                          "match":true,
+                                          "value":1.9254591,
+                                          "description":"idf(docFreq=303, maxDocs=767)"},
+                                        {
+                                          "match":true,
+                                          "value":1.0,
+                                          "description":"fieldNorm(doc=216)"}]}]}]}]}]},
+                    {
+                      "match":true,
+                      "value":-36.0,
+                      "description":"weight(urlLength), product of:",
+                      "details":[{
+                          "match":true,
+                          "value":-1.0,
+                          "description":"boost"},
+                        {
+                          "match":true,
+                          "value":36.0,
+                          "description":"urlLength"}]}]}]}]}]},
+    {
+      "match":true,
+      "value":5242880.0,
+      "description":"postRanking, sum of:",
+      "details":[{
+          "match":true,
+          "value":0.0,
+          "description":"weight(citation), product of:",
+          "details":[{
+              "match":true,
+              "value":1024.0,
+              "description":"exp2(10.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":10.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"citation"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(preferUrl), product of:",
+          "details":[{
+              "match":true,
+              "value":1.0,
+              "description":"exp2(0.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":0.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"preferUrl"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(preferTitle), product of:",
+          "details":[{
+              "match":true,
+              "value":1.0,
+              "description":"exp2(0.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":0.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"preferTitle"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(urlCompInTopList:\"clinton\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"urlCompInTopList"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(urlCompInTopList:\"cnbc\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"urlCompInTopList"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(urlCompInTopList:\"com\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"urlCompInTopList"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(urlCompInTopList:\"hillary\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"urlCompInTopList"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(urlCompInTopList:\"www\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"urlCompInTopList"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(descrCompInTopList:\"\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"descrCompInTopList"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(descrCompInTopList:\"clinton\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"descrCompInTopList"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(descrCompInTopList:\"cnbc\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"descrCompInTopList"}]},
+        {
+          "match":true,
+          "value":0.0,
+          "description":"weight(descrCompInTopList:\"hillary\"), product of:",
+          "details":[{
+              "match":true,
+              "value":4.0,
+              "description":"exp2(2.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":2.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":0.0,
+              "description":"descrCompInTopList"}]},
+        {
+          "match":true,
+          "value":1048576.0,
+          "description":"weight(appUrl:clinton), product of:",
+          "details":[{
+              "match":true,
+              "value":4096.0,
+              "description":"exp2(12.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":12.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":256.0,
+              "description":"appUrl"}]},
+        {
+          "match":true,
+          "value":4194304.0,
+          "description":"weight(appDcTitle:clinton), product of:",
+          "details":[{
+              "match":true,
+              "value":16384.0,
+              "description":"exp2(14.0), power of:",
+              "details":[{
+                  "match":true,
+                  "value":2.0,
+                  "description":"bitshiftBase"},
+                {
+                  "match":true,
+                  "value":14.0,
+                  "description":"boost"}]},
+            {
+              "match":true,
+              "value":256.0,
+              "description":"appDcTitle"}]}]}]} 
